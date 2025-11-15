@@ -16,11 +16,9 @@
 
     /* اللوجو */
     .logo {
-        width: 200px;
+        width: 220px;
         margin: 30px auto 25px;
         display: block;
-        filter: brightness(0) saturate(100%) invert(27%) sepia(21%)
-                saturate(900%) hue-rotate(18deg) brightness(95%) contrast(90%);
     }
 
     /* مستطيلات الإيقونات */
@@ -30,14 +28,12 @@
         padding: 15px 0;
         background: rgba(0,0,0,0);
         border-radius: 12px;
-        border: 2px solid rgba(0,0,0,0.12);
+        border: 2px solid rgba(0,0,0,0.25);
     }
 
     .icon-item img {
-        width: 50px;
-        height: 50px;
-        filter: brightness(0) saturate(100%) invert(27%) sepia(21%)
-                saturate(900%) hue-rotate(18deg) brightness(95%) contrast(90%);
+        width: 55px;
+        height: 55px;
     }
 
     /* زر الاتصال الآن */
@@ -84,7 +80,7 @@
 
 <body>
 
-<!-- اللوجو مدمج Base64 بدون خلفية حقيقية -->
+<!-- اللوجو بدون فلتر -->
 <img class="logo"
 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABJIAAARmCAYAAABk7p8QAAABamlDQ1BJQ0MgUHJvZmlsZQAAeJx1kL1Lw1AUxU+rUtA6iA4dHDKJpEmiRRqkblG9ipW6b4mZTJRciVb6VVDwEfyf8Ktfo1fYj2EUUtoYp7M/fe/N3nPPvYMfOqGbk9286LwGZn5BkkO0OEB6q+V8vOzTIigz2QgqF4ehTmEFDu+T1/7Nvr9/v4wnk21rJRYRyFHInTomEZKiWPySgYqJl5z0RRDyq9l7jqhLb7+wt/wvCdJMI4gni8Y1xHR6YpdqEEPUIdzjOcFYEDLbTgTtJrzx7JrxhQHCOAuM4YZzh0S6MdYRqASwW8Zu4yuPjxv4pQDm7IuVdjBIjiEcYxTmCe5CPIXRnI7/fDGRJslack+1BgjYVqsM2zfWqeo9pvR2kGhfL5bLW3Iq6VjX6t7kJP6RmN6hulKfn8eLPV5kY9LyvYrhZNGjEVuISbc0X9BQ5rjcy1h7oEP4Sj/HZQ5Bw6iAKgAMBm0U2cBvwP+Av8EfgYgz6CkGACg0HcjzEFABEdADHADHAX/D4vPev8+Eo9z02bdbzUtDtCvTxLuhtZTbt2ENlPXJfOLpd2ngJTf/1d1Z/Jmhr939RBjRkW4JGJlW2LCd4lHjFoKeKq" />
 
@@ -131,7 +127,7 @@ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABJIAAARmCAYAAABk7p8QAAABamlDQ
 
 <!-- زر فتح خرائط Google -->
 <a class="map-btn" href="https://maps.app.goo.gl/VTQBmuooM6eKQBTx5?g_st=ic" target="_blank">
-    فتح الموقع في خرائط Google
+فتح الموقع في خرائط Google
 </a>
 
 <footer>
